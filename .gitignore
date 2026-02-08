@@ -1,0 +1,52 @@
+# Docker
+docker-compose.override.yml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+pip-log.txt
+.pytest_cache/
+.coverage
+*.egg-info/
+dist/
+build/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+.env.local
+*.pem
+*.key
+
+# Project Specific - Config & Data
+quart-api/script/conf/*
+!quart-api/script/conf/.gitkeep
+!quart-api/script/conf/*.example
+!quart-api/script/conf/*.py.example
+quart-api/script/data/*
+!quart-api/script/data/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
